@@ -1,0 +1,3 @@
+wx.config.env.DEV=CommonConnectionCI_DEV.cnf
+wx.config.incl=as-jms.xml
+wx.config.env.TEST=CommonConnectionCI_TEST.cnf

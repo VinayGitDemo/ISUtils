@@ -1,0 +1,5 @@
+jms.serverName=10.60.128.130
+jms.user=testuser
+jms.password=testuser
+jms.databaseName=xetest
+jms.portNumber=1522

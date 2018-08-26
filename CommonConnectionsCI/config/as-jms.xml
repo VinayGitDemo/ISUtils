@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<config>
+<autoConfig>
+  <jms>
+    <!-- Connection for performing the setup -->
+    <hostname>${jms.serverName}</hostname>
+    <port>${jms.portNumber}</port>
+    <brokerName>Broker #1</brokerName>
+
+	
+	<!-- setup jndi alias -->
+	<jndiAlias name="JndiAliasName_1">
+		<description>JndiAliasDescription</description>
+		<initialContextFactory>com.webmethods.jms.naming.WmJmsNamingCtxFactory</initialContextFactory>
+		<providerURL>wmjmsnaming://Broker #1@${jms.serverName}:${jms.portNumber}</providerURL>
+		<securityPrincipal>${jms.user}</securityPrincipal>
+        <securityCredentials>${jms.password}</securityCredentials>
+        <providerURLFailoverList>wmjmsnaming://Broker #1@${jms.serverName}:${jms.portNumber}</providerURLFailoverList>
+        <otherProps>com.webmethods.jms.naming.clientgroup=admin</otherProps>
+    </jndiAlias>
+	
+	<!-- setup connection alias based on jndi -->
+	<connectionAlias name="ConnectionAliasJndi">
+		<description>ConnectionAliasDescription</description>
+		<clientID></clientID>
+		<transactionType>0</transactionType>
+		<user>Administrator</user> <!-- optional-->
+		<password>manage</password> <!-- optional-->
+		<!--	
+			transactionType:
+			0: NO_TRANSACTION
+			1: LOCAL_TRANSACTION
+			2: XA_TRANSACTION
+		-->
+		<jndi>
+			<jndiProviderAlias>JndiAliasName_1</jndiProviderAlias>
+			<connectionFactoryLookupName>ConnectionFactoryLookupName</connectionFactoryLookupName>
+		</jndi>
+	</connectionAlias>
+
+	
+   
+    
+
+		
+  </jms>
+
+</autoConfig>
+</config>
