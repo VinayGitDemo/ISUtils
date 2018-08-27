@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="null" reset="false" threshold="null">
+<appender class="org.apache.log4j.DailyRollingFileAppender" name="WxConfig">
+			<param name="DatePattern" value="'.'yyyyMMdd"/>
+			<param name="Append" value="true"/>
+			<param name="File" value="./logs/WxConfig.log"/>
+			<param name="threshold" value="trace"/>
+			<layout class="org.apache.log4j.PatternLayout">
+				<!-- With logger category at the end-->
+				<!-- <param name="ConversionPattern" value="%d %-5p - %m [%c]%n" /> -->
+				<!-- Without logger category at the end-->
+				<param name="ConversionPattern" value="%d %-5p - %m%n"/>
+				<!-- <param name="ConversionPattern" value="%d{ABSOLUTE} %5p %c{1}:%L - %m%n" /> -->
+			</layout>
+	</appender>
+<appender class="org.apache.log4j.varia.NullAppender" name="Null"/>
+<category additivity="false" name="WxConfig">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="Startup">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="LicenseManager">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="Deactivation">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="Loading">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="Reloading">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="CRUD">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="Interpolators">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="ConfigFileList">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="FileLocation">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="FileInclusionDirectives">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="PassMan">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="Miscellaneous">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="Central">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="Cluster">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="InternalTracing">
+		<priority value="Off"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.ExtendedSettings">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.ACLs">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.CentralUsers">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.JMS">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.Messaging">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.Scheduler">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.Ehcache">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.Adapter">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.PackageListener">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.TN">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.FileAccessControl">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.UI">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.Proxy">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.JDBC">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.WebServices">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.RemoteServer">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.PortGeneral">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.EmailPort">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.FilePort">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.HttpPort">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.MFT">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="AutoSetup.SFTP">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="Update">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="Audit">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="Publish">
+		<priority value="Info"/>
+		<appender-ref ref="WxConfig"/>
+	</category>
+<category additivity="false" name="ScreenOutput">
+		<priority value="Debug"/>
+		<appender-ref ref="Null"/>
+	</category>
+<!-- The usage of a root category is STRONGLY discouraged, since
+     it will most likely interfere with the standard logging of
+	 Integration Server and clutter server.log
+-->
+<!--	
+	<root>
+		<priority value="debug"></priority>
+		<appender-ref ref="WxLog" />
+	</root>
+-->
+</log4j:configuration>
