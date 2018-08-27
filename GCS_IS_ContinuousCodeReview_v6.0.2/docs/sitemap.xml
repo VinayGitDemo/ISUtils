@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>/index.html</loc>
+     <lastmod>2018-06-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>/About/License/index.html</loc>
+     <lastmod>2018-06-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/About/Release Notes/index.html</loc>
+     <lastmod>2018-06-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/Developers/API Documentation/index.html</loc>
+     <lastmod>2018-06-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/Developers/Adding New Decorators/index.html</loc>
+     <lastmod>2018-06-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/Developers/Adding New Operations/index.html</loc>
+     <lastmod>2018-06-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/Developers/Adding New Reports/index.html</loc>
+     <lastmod>2018-06-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/Developers/Adding New Sensors/index.html</loc>
+     <lastmod>2018-06-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/Developers/Customising Operations/index.html</loc>
+     <lastmod>2018-06-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/User Guide/Command Line Options/index.html</loc>
+     <lastmod>2018-06-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/User Guide/Configuration Xml/index.html</loc>
+     <lastmod>2018-06-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/User Guide/Continuous Integration (CI) Server/index.html</loc>
+     <lastmod>2018-06-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/User Guide/Eclipse Plugin/index.html</loc>
+     <lastmod>2018-06-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/User Guide/PRIME Review Checks/index.html</loc>
+     <lastmod>2018-06-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/User Guide/Reports/index.html</loc>
+     <lastmod>2018-06-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+</urlset>
