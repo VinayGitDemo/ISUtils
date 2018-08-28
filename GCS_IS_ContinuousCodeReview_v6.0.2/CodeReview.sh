@@ -16,6 +16,7 @@ export CODEREVIEW_HOME=.
 #
 # Adapt to alternative JRE (1.8) if necessary
 # export JAVA_HOME=/opt/softwareag/jvm/jvm
+export JAVA_HOME=/usr/lib/jvm/jre-1.8.0-openjdk
 
 if [ "$1" = "-?" ] || [ "$1" = "-help" ] || [ "$1" = "-h" ]
 then
