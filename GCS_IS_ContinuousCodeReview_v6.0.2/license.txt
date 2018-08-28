@@ -1,0 +1,11 @@
+productId=ISContinuousCodeReview
+productVersion=any
+serialNumber=8f0a5d3f-d416-4209-bb14-5624f7c1b738
+customerName=Software AG
+customerOrganization=GCS
+features=all
+expiryDate=08/17/2019
+numberOfCopies=1
+comments=Issued to user rdas. For internal use only.
+licenseVersion=1
+licenseKey=MCwCFGOaFDJNlhUOGdeRbnKFePSWN3OCAhQrIJIxOKrYuQyGdIV009d0J9L77A==
